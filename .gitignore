@@ -70,3 +70,14 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Local configuration and private signing keys
+*.keystore
+*.keystore.meta
+*.jks
+*.jks.meta
+.env
+.env.*
+!.env.example
+/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset.meta
